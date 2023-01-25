@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(120, 64%, 85%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*--------HEADER---------*/
+body header {border-color: rgb(151, 147, 147);
+border-style: groove;
+}
+nav h1 {
+    font-size: 50px;
+}
+
+body header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav {
+    display: flex;
+background-image: url(../img/green-card-1326105.jpg);
+width: 100%;
+height: 500px;
+background-size: cover;
+}
+
+header nav h1 {
+    background-color: white;
+    border-color: white;
+    text-align: center;
+     width: 700px; height: 65px;
+border-style: groove;
+margin: 2px;
+    padding-left: 10px;
+    padding-top:5px;
+}
+
+.english{
+    border-color: white;
+    background-color: white;
+    width: 80px; height: 25px fit-content;
+    border-style: groove;
+    margin: 2px;
+    padding-left: 10px;
+    padding-top:2px;
+    text-decoration: none;    
+}
+.español{
+    border-color: white;
+    background-color: white;
+    width: 80px; height: 25px fit-content;
+border-style: groove;
+margin: 2px;
+    padding-left: 10px;
+    padding-top:2px;
+}
+
+/*--hero section--*/
+.herosection {    
+
+    width: 100%;
+    height: 450px;
+    background-color: hsl(120, 77%, 83%);
+    display: flex;
+
+}
+.herosection h2{
+text-align: center;
+margin: 30px 30px 30px 30px;
+}
+.ourresults{
+    text-align: justify;
+    height: 500px;
+    width: 33.5%;
+    border-style: groove;
+    /*--padding-top: 30px;--*/
+}
+.sub-results{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+.ourteam{
+    text-align: justify;
+    height: 500px;
+    width: 33.5%;
+    border-style: groove;
+    /*--padding-top: 30px;--*/
+}
+
+.sub-team{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+.ouroffices{
+    height: 500px;
+    width: 33.5%;
+    /*--padding-top: 30px;--*/
+    border-style: groove;
+    padding-left: 35px;
+}
+
+.sub-offices{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+/*--SECUNDARY SECTION--*/
+
+.secundary {
+    border-style: groove;
+    display: flex;
+    text-align: center;
+    padding: 80px 80px 80px 80px;
+}
+
+/*--footer--*/
+.footer {
+    width: 100%px; height: 200px;
+    background-size: cover;
+    background-color: rgb(169, 169, 247);
+    display: flex;
+
+border-style: groove;
+
+}
+
+.redes{
+    display: block;
+}
+
+/*--.redes{
+    width: 500px; height: 50px;
+}
+.offices {
+    width: 500px; height: 50px;
+}
+.work {
+    width: 500px; height: 50px;
+}--*/
+
+/*--SEATTLE PAGE--*/
+
+.seattleimg{
+    display: flex;
+background-image: url(../img/Seattle\ Office.jpg); 
+width: 100%;
+height: 96vh;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.seattle-consult {
+    display: flex;
+    
+}
+.footersea {
+    width: 100%px; height: 200px;
+    background-size: cover;
+    background-color: rgb(169, 169, 247);
+    display: flex;
+border-style: groove;
+}
+    .redes{
+        width: 500px; height: 50px;
+    }
+    .offices {
+        width: 500px; height: 50px;
+    }
+    .work {
+        width: 500px; height: 50px;
+}
+
+/*--Chicago PAGE--*/
+
+.chicagoimg{
+background-image: url(../img/Chicago\ office.jpg);
+width: 100%;
+height: 96vh;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.footerchi{
+    width: 100%px; height: 200px;
+    background-size: cover;
+    background-color: rgb(169, 169, 247);
+    display: flex;
+border-style: groove;
+    border-style: groove;
+}
+.chicago-consult{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--Texas Office PAGE--*/
+
+
+.texasimg{
+    background-image: url(../img/Texas\ office.jpg);
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+background-attachment: fixed;
+}
+
+.footertex{
+    width: 100%px; height: 200px;
+    background-size: cover;
+    background-color: rgb(169, 169, 247);
+    display: flex;
+border-style: groove;
+
+}
+
+.texas-consult{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--Los Angeles--*/
+
+.laimg{
+   background-image: url(../img/New\ york\ office.jpg);
+   width: 100%;
+   height: 96vh;
+   background-size: cover;
+background-attachment: fixed;
+
+}
+
+.footerla{
+    width: 100%px; height: 200px;
+    background-size: cover;
+    background-color: rgb(169, 169, 247);
+    display: flex;
+border-style: groove;
+}
+.la-consult{
+    display: flex;
+    justify-content: space-around;
+}

@@ -10,7 +10,7 @@ body {
 }
 
 /*--------HEADER---------*/
-.grid-contenedor{
+/*--.grid-contenedor{
     display:grid;
     grid-template-columns: repeat( 1fr, 1fr 1fr);
     grid-template-rows: auto auto auto auto;
@@ -18,8 +18,22 @@ body {
     "header header header"
     "herosection herosection herosection"
     "secundary secundary secunday"
-    "footer footer footer";
-}
+    "footer footer footer";}--*/
+
+/*---------MEDIA QUERY------------*/ 
+/*--@media screen and (max-width:700px){
+    .grid-contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "header header"
+        "herosection herosection"
+        "secundary secundary"
+        "footer footer";
+    }
+}--*/
+
+
 body header {border-color: rgb(151, 147, 147);
 border-style: solid;
 border-width: 2px;
@@ -128,7 +142,9 @@ margin: 30px 30px 30px 30px;
 .sub-offices{
     background-color: rgba(255, 255, 255, 0.384);
 }
-
+.sub-offices ul{
+    list-style: none;
+}
 .offices-title:hover{
     font-size: 30px;
     color:  rgb(169, 169, 247);
@@ -439,12 +455,15 @@ background-attachment: fixed;
         margin: 7px;
         padding-left: 40px;
         padding-top: 5px;
+        padding-right: 35px;
+        margin-left: 30px;
     }
     .lady img{
         width: 350px;
         height: 250px;
         border-radius: 5px;
-        border: 3px groove;}
+        border: 3px groove;
+    }
     .lady:hover{
         background-color:  hsl(120, 64%, 85%);
         color: white;}
@@ -453,6 +472,7 @@ background-attachment: fixed;
         margin: 7px;
         padding-left: 40px;
         padding-top: 5px;
+        padding-right: 35px;
     }
     .cruzadas img{
         width: 350px;
@@ -462,12 +482,14 @@ background-attachment: fixed;
     }
     .cruzadas:hover{
             background-color:  hsl(120, 64%, 85%);
-            color: white;}
+            color: white;
+        }
     .papers{
         background-color: rgb(169, 169, 247);
         margin: 7px;
         padding-left: 40px;
         padding-top: 5px;
+        padding-right: 35px;
     }
     .papers img{
         width: 350px;

@@ -11,35 +11,68 @@ body {
 
 /*--------HEADER---------*/
 
-.grid-contenedor{
-display: grid;
-grid-template-columns: repeat (1fr, 1fr, 1fr,);
-grid-template-rows: auto 250px 150px;
-grid-template-areas: 
-"header header header"
-"herosection herosection herosection"
-"secundary secundary secundary"
-"footer footer footer";
-}
+@media screen and (max-width: 900px){
 
-/*---------MEDIA QUERY------------*/ 
-
-@media screen and (max-width: 800px){
-    .grid-contenedor{
+    .herosection{
+        display: flex;
+    }
+     
+    .header{
+        height: fit-content;
         width: 100%;
-        margin: 0;
-        grid-template-columns: repeat (1fr, 1fr,);
-        grid-template-rows: auto auto 150px;
-        grid-template-areas: 
-        "header header"
-        "herosection herosection"
-        "secundary secundary"
-        "footer footer"
-        ;
     }
 
-}
+    .secundary{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        align-items:first baseline;
+    }
+    .ally img{
+        width: 500px;
+        height: 270px;
+    }
+    .schedule form{
+        width: 300;
+        height: 500px;
+    }
+    
+    .footer{
+        display: flex;
+        height: fit-content;
+    }
+    .work {
+        text-align: justify;
+        padding: 0;
+        height: fit-content;
 
+    }
+}
+@media screen and (max-width: 700px){
+    
+    .secundary{
+        display: flex;
+        flex-direction: column;
+    }
+    .ally img{
+        width: 500px;
+        height: 270px;
+    }
+    .schedule form{
+        width: 300;
+        height: 500px;
+    }
+    
+    .footer{
+        display: flex;
+        height: fit-content;
+    }
+    .work {
+        text-align: justify;
+        padding: 0;
+        height: fit-content;
+}
+}
 
 body header {border-color: rgb(151, 147, 147);
 border-style: solid;
@@ -69,7 +102,7 @@ header nav h1 {
     background-color: white;
     border-color: white;
     text-align: center;
-     width: 700px; height: 65px;
+     width: 500px; height: 65px;
 border-style: groove;
 margin: 2px;
     padding-left: 10px;
@@ -113,7 +146,7 @@ margin: 2px;
 }
 .herosection h2{
 text-align: center;
-margin: 30px 30px 30px 30px;
+margin: 20px 20px 20px 20px;
 }
 .ourresults{
     text-align: justify;
@@ -195,17 +228,17 @@ margin: 30px 30px 30px 30px;
 .schedule:hover{
     background-color:  rgb(169, 169, 247);
     color: white;
+    transition: 2s;
 }
 
 .ally{
     margin-top: 50px;
     margin-left: -45px;
     border: radius 7px rgb(169, 169, 247) solid;
-    width: 680px;
-    height: 430px;
+    width: 380px;
+    height: 230px;
     width: fit-content;
     height: fit-content;
-    background-image: url(../img/Ally.jpg)
 }
 .schedule-title{
     padding: 50px;
@@ -421,27 +454,17 @@ background-attachment: fixed;
 
 /*------NOSOTROS-----*/
 
-/*--------MEDIA QUERY---------*/
-.grid-nosotros{
-    display: grid;
-    grid-template-columns: repeat(3 1fr) ;
-    grid-template-rows: 450px 450px 350px;
-    grid-template-areas: 
-    "galery1 galery1 galery1"
-    "galery2 galery2 galery2";
-    margin: 0;
-    width: 100%;
-    margin: 20px;
+@media screen and (min-width: 900px) {
+  
+
+    .us{
+        display: flex;
+        flex-direction: column;   
+    }
 }
-@media screen and (min-width: 850px) {
-    .grid-nosotros{
-    grid-template-columns: repeat(2 1fr) ;
-    grid-template-rows: 450px 450px;
-    grid-template-areas: 
-    "galery1 galery1"
-    "galery2 galery2";}
-}
- 
+ header h1 a{
+    text-decoration: none;
+ }
 
 .us{
     background-image: url(../img/books.jpg);
@@ -457,6 +480,7 @@ background-attachment: fixed;
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
+    transition: 1s;
 }
 .abrazo img{
     width: 350px;
@@ -471,6 +495,7 @@ background-attachment: fixed;
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
+    transition: 1s;
 }
 .hi5 img{
     width: 350px;
@@ -486,6 +511,7 @@ background-attachment: fixed;
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
+    transition: 1s;
 }
 .manos img{
     width: 350px;
@@ -510,6 +536,7 @@ background-attachment: fixed;
         padding-top: 5px;
         padding-right: 35px;
         margin-left: 30px;
+        transition: 1s;
     }
     .lady img{
         width: 350px;
@@ -526,6 +553,7 @@ background-attachment: fixed;
         padding-left: 40px;
         padding-top: 5px;
         padding-right: 35px;
+        transition: 1s;
     }
     .cruzadas img{
         width: 350px;
@@ -543,6 +571,7 @@ background-attachment: fixed;
         padding-left: 40px;
         padding-top: 5px;
         padding-right: 35px;
+        transition: 1s;
     }
     .papers img{
         width: 350px;
@@ -552,4 +581,5 @@ background-attachment: fixed;
     }
     .papers:hover{
         background-color:  hsl(120, 64%, 85%);
-        color: white;}
+        color: white;
+    }

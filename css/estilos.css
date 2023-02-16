@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,3 +8,299 @@ body {
   background: #020024;
   background: linear-gradient(255deg, #020024 2%, #6b4a4a 50%, #557e81 100%, rgba(71, 158, 162, 0) 100%);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.footer {
+  width: 100%px;
+  height: 250px;
+  background-size: cover;
+  display: flex;
+  border-style: groove;
+  grid-area: footer; }
+  .footer .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 18px;
+    width: 33.5%; }
+  .footer .offices {
+    width: 33.5%; }
+    .footer .offices .offices2 {
+      padding: 40px;
+      font-size: 20px;
+      font-style: bold; }
+      .footer .offices .offices2:hover {
+        font-size: 25px;
+        color: #a9a9f7;
+        transition: 1s; }
+    .footer .offices ul li {
+      list-style: none; }
+      .footer .offices ul li a {
+        text-decoration: none; }
+  .footer .work .work-title {
+    padding: 40px;
+    font-size: 20px;
+    font-style: bold; }
+    .footer .work .work-title:hover {
+      font-size: 25px;
+      color: #a9a9f7;
+      transition: 1s; }
+  .footer .work p a {
+    text-decoration: none; }
+
+body header {
+  border-color: #979393;
+  border-style: solid;
+  border-width: 2px;
+  grid-area: header; }
+  body header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../img/green-card-1326105.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover; }
+  body header h1 {
+    font-size: 50px;
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    width: 500px;
+    height: 65px;
+    border-style: groove;
+    margin: 2px;
+    padding-left: 10px;
+    padding-top: 5px; }
+    body header h1 div {
+      border-color: white;
+      background-color: white;
+      width: 80px;
+      height: 25px fit-content;
+      border-style: groove;
+      margin: 2px;
+      padding-left: 10px;
+      padding-top: 2px; }
+      body header h1 div a {
+        text-decoration: none; }
+    body header h1 .español {
+      border-color: white;
+      background-color: white;
+      width: 80px;
+      height: 25px fit-content;
+      border-style: groove;
+      margin: 2px;
+      padding-left: 10px;
+      padding-top: 2px; }
+      body header h1 .español a {
+        text-decoration: none; }
+
+.herosection {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  grid-area: herosection; }
+  .herosection .ourresults {
+    text-align: justify;
+    height: 500px;
+    width: 33.5%;
+    border-style: groove;
+    padding: 10px; }
+    .herosection .ourresults h2 {
+      text-align: center;
+      margin: 20px 20px 20px 20px; }
+      .herosection .ourresults h2:hover {
+        font-size: 30px;
+        color: #a9a9f7; }
+    .herosection .ourresults div {
+      background-color: rgba(255, 255, 255, 0.384); }
+  .herosection .ourteam {
+    text-align: justify;
+    height: 500px;
+    width: 33.5%;
+    border-style: groove;
+    padding: 10px; }
+    .herosection .ourteam h2:hover {
+      font-size: 30px;
+      color: #a9a9f7; }
+    .herosection .ourteam div {
+      background-color: rgba(255, 255, 255, 0.384); }
+      .herosection .ourteam div p a {
+        text-decoration: none; }
+  .herosection .ouroffices {
+    height: 500px;
+    width: 33.5%;
+    border-style: groove;
+    padding: 10px;
+    padding-top: 3px; }
+    .herosection .ouroffices h2:hover {
+      font-size: 30px;
+      color: #a9a9f7; }
+    .herosection .ouroffices div {
+      background-color: rgba(255, 255, 255, 0.384); }
+      .herosection .ouroffices div ul li {
+        list-style: none; }
+        .herosection .ouroffices div ul li a {
+          text-decoration: none; }
+
+.us {
+  display: flex;
+  flex-direction: column;
+  background: #020024;
+  background: linear-gradient(255deg, #020024 2%, #6b4a4a 50%, #557e81 100%, rgba(71, 158, 162, 0) 100%); }
+  .us header h1 a {
+    text-decoration: none; }
+  .us .galery1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    grid-area: galery1; }
+    .us .galery1 .abrazo {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      transition: 2s; }
+      .us .galery1 .abrazo:hover {
+        background-color: #c0f1c0;
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto; }
+      .us .galery1 .abrazo img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+    .us .galery1 .hi5 {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      transition: 2s; }
+      .us .galery1 .hi5:hover {
+        background-color: #c0f1c0;
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto; }
+      .us .galery1 .hi5 img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+    .us .galery1 .manos {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      transition: 2s; }
+      .us .galery1 .manos img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+        .us .galery1 .manos img:hover {
+          background-color: #c0f1c0;
+          color: white;
+          width: 2000px;
+          height: 400px;
+          margin: auto; }
+  .us .galery2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    grid-area: galery2; }
+    .us .galery2 .lady {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      padding-right: 35px;
+      margin-left: 30px;
+      transition: 2s; }
+      .us .galery2 .lady:hover {
+        background-color: #c0f1c0;
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto; }
+      .us .galery2 .lady img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+    .us .galery2 .cruzadas {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      padding-right: 35px;
+      transition: 2s; }
+      .us .galery2 .cruzadas:hover {
+        background-color: #c0f1c0;
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto; }
+      .us .galery2 .cruzadas img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+    .us .galery2 .papers {
+      background-color: #a9a9f7;
+      margin: 7px;
+      padding-left: 40px;
+      padding-top: 5px;
+      padding-right: 35px;
+      transition: 2s; }
+      .us .galery2 .papers:hover {
+        background-color: #c0f1c0;
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto; }
+      .us .galery2 .papers img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        border: 3px groove; }
+
+.secundary {
+  border-style: groove;
+  display: flex;
+  text-align: center;
+  padding: 80px 80px 80px 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; }
+  .secundary .vawa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top: 200px; }
+    .secundary .vawa .vawa-title {
+      font-size: 40px;
+      color: #a9a9f7;
+      padding-bottom: 50px; }
+      .secundary .vawa .vawa-title:hover {
+        color: blue;
+        font-size: 45px;
+        transition: 2s; }
+    .secundary .vawa .vawa-parf {
+      justify-content: center;
+      align-items: center; }
+  .secundary .schedule {
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.384);
+    color: black;
+    margin-top: 40px;
+    width: 680px;
+    height: 500px; }
+    .secundary .schedule:hover {
+      background-color: #a9a9f7;
+      color: white;
+      transition: 2s; }
+    .secundary .schedule .schedule-title {
+      padding: 50px; }

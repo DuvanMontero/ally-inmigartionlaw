@@ -1,0 +1,152 @@
+.us{
+    display: flex;
+        flex-direction: column;   
+        background: rgb(2,0,36);
+        background: linear-gradient(255deg, rgba(2,0,36,1) 2%, rgba(107,74,74,1) 50%, rgba(85,126,129,1) 100%, rgba(71,158,162,0) 100%);
+
+    header{
+        h1{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    .galery1{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        grid-area: galery1;
+        .abrazo{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            transition: 2s;
+            &:hover{
+                background-color:  hsl(120, 64%, 85%);
+                color: white;
+                width: 2000px;
+                height: 400px;
+                margin: auto;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+            }
+
+        }
+        .hi5{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            transition: 2s;
+            &:hover{
+                background-color:  hsl(120, 64%, 85%);
+                color: white;
+                width: 2000px;
+                height: 400px;
+                margin: auto;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+            }
+        }
+        .manos{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            transition: 2s;
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+                &:hover{
+                    background-color:  hsl(120, 64%, 85%);
+                    color: white;
+                    width: 2000px;
+                    height: 400px;
+                    margin: auto;
+                }
+            }
+            
+        }
+    }
+    .galery2{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        grid-area: galery2;
+        .lady{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            padding-right: 35px;
+            margin-left: 30px;
+            transition: 2s;
+            &:hover{
+                background-color:  hsl(120, 64%, 85%);
+                color: white;
+                width: 2000px;
+                height: 400px;    
+                margin: auto;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+            }
+        }
+        .cruzadas{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            padding-right: 35px;
+            transition: 2s;
+            &:hover{
+                background-color:  hsl(120, 64%, 85%);
+                color: white;
+                width: 2000px;
+                height: 400px;
+                margin: auto;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+            }
+        }
+        .papers{
+            background-color: rgb(169, 169, 247);
+            margin: 7px;
+            padding-left: 40px;
+            padding-top: 5px;
+            padding-right: 35px;
+            transition: 2s;
+            &:hover{
+                background-color:  hsl(120, 64%, 85%);
+                color: white;
+                width: 2000px;
+                height: 400px;
+                margin: auto;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                border-radius: 5px;
+                border: 3px groove;
+            }
+        }
+    }
+}

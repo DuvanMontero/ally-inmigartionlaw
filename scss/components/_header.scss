@@ -1,0 +1,54 @@
+body{
+    header{
+        border-color: rgb(151, 147, 147);
+        border-style: solid;
+        border-width: 2px;
+        grid-area: header;
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: url(../img/green-card-1326105.jpg);
+            width: 100%;
+            height: 500px;
+            background-size:cover;
+        }
+            h1{
+                font-size: 50px;
+                background-color: white;
+                border-color: white;
+                text-align: center;
+                width: 500px; height: 65px;
+                border-style: groove;
+                margin: 2px;
+                padding-left: 10px;
+                padding-top:5px;
+                div{
+                    border-color: white;
+                    background-color: white;
+                    width: 80px; height: 25px fit-content;
+                    border-style: groove;
+                    margin: 2px;
+                    padding-left: 10px;
+                    padding-top:2px;
+            
+                    a{
+                    text-decoration: none;
+                    }
+                }
+                .español{
+                    border-color: white;
+                    background-color: white;
+                    width: 80px; height: 25px fit-content;
+                    border-style: groove;
+                    margin: 2px;
+                    padding-left: 10px;
+                    padding-top:2px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }

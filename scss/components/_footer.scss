@@ -1,0 +1,54 @@
+.footer {
+    width: 100%px; height: 250px;
+    background-size: cover;
+    display: flex;
+    border-style: groove;
+    grid-area: footer;
+    
+    .redes{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 18px;
+    width: 33.5%;
+    }
+    .offices{
+        width: 33.5%;  
+        .offices2{
+            padding: 40px;
+             font-size: 20px;
+             font-style: bold;
+             &:hover{
+                font-size: 25px;
+                color:  rgb(169, 169, 247);
+                transition: 1s;
+             }
+        }   
+         ul{
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+         }
+
+        }
+    .work{
+            .work-title{
+                padding: 40px;
+                font-size: 20px;
+                font-style: bold;
+                &:hover{
+                    font-size: 25px;
+                    color:  rgb(169, 169, 247);
+                    transition: 1s;
+                }
+            }
+            p{
+                a{
+                    text-decoration: none;
+                }
+            }
+    }
+}

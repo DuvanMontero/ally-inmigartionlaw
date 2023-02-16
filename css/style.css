@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: hsl(120, 64%, 85%);
+    background: rgb(2,0,36);
+        background: linear-gradient(255deg, rgba(2,0,36,1) 2%, rgba(107,74,74,1) 50%, rgba(85,126,129,1) 100%, rgba(71,158,162,0) 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -140,7 +141,6 @@ margin: 2px;
 
     width: 100%;
     height: 450px;
-    background-color: hsl(120, 77%, 83%);
     display: flex;
     grid-area: herosection;
 }
@@ -210,16 +210,35 @@ margin: 20px 20px 20px 20px;
     text-align: center;
     padding: 80px 80px 80px 80px;
     display: flex ;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     grid-area: secundary;
 }
 
+.vawa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top: 200px;
+}
+.vawa-title{
+    font-size: 40px;
+    color:  rgb(169, 169, 247);
+    padding-bottom: 50px;
+}
+.vawa-title:hover{
+    color:blue;
+    font-size: 45px;
+    transition: 2s;
+}
+.vawa-parf{
+    justify-content: center;
+    align-items: center;
+}
 .schedule{
     border: 1px solid;
     background-color: rgba(255, 255, 255, 0.384);
     color: black;
-    margin-left: 90px;
     margin-top: 40px;
     width: 680px;
     height: 500px;
@@ -231,15 +250,6 @@ margin: 20px 20px 20px 20px;
     transition: 2s;
 }
 
-.ally{
-    margin-top: 50px;
-    margin-left: -45px;
-    border: radius 7px rgb(169, 169, 247) solid;
-    width: 380px;
-    height: 230px;
-    width: fit-content;
-    height: fit-content;
-}
 .schedule-title{
     padding: 50px;
 
@@ -249,7 +259,6 @@ margin: 20px 20px 20px 20px;
 .footer {
     width: 100%px; height: 250px;
     background-size: cover;
-    background-color: rgb(169, 169, 247);
     display: flex;
     border-style: groove;
     grid-area: footer;
@@ -281,16 +290,27 @@ margin: 20px 20px 20px 20px;
     font-size: 20px;
     font-style: bold;
 }
+.offices2:hover{
+    font-size: 25px;
+    color:  rgb(169, 169, 247);
+    transition: 1s;
+}
 .work-title{
     padding: 40px;
     font-size: 20px;
     font-style: bold;}
+    .work-title:hover{
+        font-size: 25px;
+        color:  rgb(169, 169, 247);
+        transition: 1s;
+    }
 .work p a{
     text-decoration: none;
 }
 /*--SEATTLE PAGE--*/
 
 .seattle-consult{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -321,7 +341,6 @@ background-attachment: fixed;}
 .footersea {
         width: 100%px; height: 250px;
         background-size: cover;
-        background-color: rgb(169, 169, 247);
         display: flex;
     border-style: groove;
 }
@@ -363,7 +382,6 @@ background-attachment: fixed;
 .footerchi{
     width: 100%px; height: 250px;
         background-size: cover;
-        background-color: rgb(169, 169, 247);
         display: flex;
         justify-content: space-between;
     border-style: groove;
@@ -402,7 +420,6 @@ background-attachment: fixed;
 .footertex{
     width: 100%px; height: 250px;
         background-size: cover;
-        background-color: rgb(169, 169, 247);
         display: flex;
     border-style: groove;
 }
@@ -441,7 +458,6 @@ background-attachment: fixed;
 .footerla{
     width: 100%px; height: 250px;
         background-size: cover;
-        background-color: rgb(169, 169, 247);
         display: flex;
     border-style: groove;
 }
@@ -460,15 +476,14 @@ background-attachment: fixed;
     .us{
         display: flex;
         flex-direction: column;   
+        background: rgb(2,0,36);
+        background: linear-gradient(255deg, rgba(2,0,36,1) 2%, rgba(107,74,74,1) 50%, rgba(85,126,129,1) 100%, rgba(71,158,162,0) 100%);
     }
 }
  header h1 a{
     text-decoration: none;
  }
 
-.us{
-    background-image: url(../img/books.jpg);
-}
 .galery1{
     display: flex;
     justify-content: space-around;
@@ -480,7 +495,7 @@ background-attachment: fixed;
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
-    transition: 1s;
+    transition: 2s;
 }
 .abrazo img{
     width: 350px;
@@ -489,13 +504,17 @@ background-attachment: fixed;
     border: 3px groove;}
 .abrazo:hover{
     background-color:  hsl(120, 64%, 85%);
-    color: white;}
+    color: white;
+    width: 2000px;
+    height: 400px;
+    margin: auto;
+}
 .hi5{
     background-color: rgb(169, 169, 247);
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
-    transition: 1s;
+    transition: 2s;
 }
 .hi5 img{
     width: 350px;
@@ -505,13 +524,17 @@ background-attachment: fixed;
 }
 .hi5:hover{
         background-color:  hsl(120, 64%, 85%);
-        color: white;}
+        color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto;
+}
 .manos{
     background-color: rgb(169, 169, 247);
     margin: 7px;
     padding-left: 40px;
     padding-top: 5px;
-    transition: 1s;
+    transition: 2s;
 }
 .manos img{
     width: 350px;
@@ -521,7 +544,11 @@ background-attachment: fixed;
 }
 .manos:hover{
     background-color:  hsl(120, 64%, 85%);
-    color: white;}
+    color: white;
+    width: 2000px;
+    height: 400px;
+    margin: auto;
+}
     
     .galery2{
         display: flex;
@@ -536,7 +563,7 @@ background-attachment: fixed;
         padding-top: 5px;
         padding-right: 35px;
         margin-left: 30px;
-        transition: 1s;
+        transition: 2s;
     }
     .lady img{
         width: 350px;
@@ -546,14 +573,19 @@ background-attachment: fixed;
     }
     .lady:hover{
         background-color:  hsl(120, 64%, 85%);
-        color: white;}
+        color: white;
+        width: 2000px;
+        height: 400px;    
+        margin: auto;
+    }
+
     .cruzadas{
         background-color: rgb(169, 169, 247);
         margin: 7px;
         padding-left: 40px;
         padding-top: 5px;
         padding-right: 35px;
-        transition: 1s;
+        transition: 2s;
     }
     .cruzadas img{
         width: 350px;
@@ -564,6 +596,9 @@ background-attachment: fixed;
     .cruzadas:hover{
             background-color:  hsl(120, 64%, 85%);
             color: white;
+            width: 2000px;
+            height: 400px;
+            margin: auto;
         }
     .papers{
         background-color: rgb(169, 169, 247);
@@ -571,7 +606,7 @@ background-attachment: fixed;
         padding-left: 40px;
         padding-top: 5px;
         padding-right: 35px;
-        transition: 1s;
+        transition: 2s;
     }
     .papers img{
         width: 350px;
@@ -582,4 +617,7 @@ background-attachment: fixed;
     .papers:hover{
         background-color:  hsl(120, 64%, 85%);
         color: white;
+        width: 2000px;
+        height: 400px;
+        margin: auto;
     }

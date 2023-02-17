@@ -1,0 +1,44 @@
+.texasimg{
+    background-image: url(../img/Texas\ office.jpg);
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.texas-consult{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    .schedule-texas{
+        border: 1px solid;
+        background-color: rgba(255, 255, 255, 0.384);
+        color: black;
+        margin-left: 90px;
+        margin-top: 40px;
+        width: 680px;
+        height: 500px;
+        &:hover{
+            background-color:  rgb(169, 169, 247);
+            color: white;
+        }
+    }
+}
+.footertex{
+        width: 100%px; height: 250px;
+        background-size: cover;
+        display: flex;
+        border-style: groove;
+    .redes{
+        width: 500px; height: 50px;
+        padding-left: 7px;
+    }
+    .offices{
+        width: 500px; height: 50px;
+    }
+    .work{
+        width: 500px; height: 50px;
+        padding-right: 17px;
+        text-align: justify;
+    }
+}
